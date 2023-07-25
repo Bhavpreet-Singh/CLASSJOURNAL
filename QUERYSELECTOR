@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Example
+        </title>
+        <style>
+            .my-class{
+                color: red;
+            }
+        </style>
+    </head>
+    <body>
+        <p class="my-class">Hello, World!</p>
+        <script>
+            const element = document.querySelector('.my-class');
+            console.log(element.textContent);
+        </script>
+    </body>
+</html>
